@@ -10,7 +10,6 @@
   --inconsolata-fonts: "Inconsolata", monospace;
   --main-font-color: #333333;
   --background-color: #3377aa;
-  --link-color: #1400ee;
 }
 
 body {
@@ -83,10 +82,6 @@ li {
   letter-spacing: 0.1em;
 }
 
-u {
-  color: var(--link-color);
-}
-
 em {
   color: var(--main-font-color);
   font-family: var(--sans-sefir-fonts);
@@ -122,5 +117,5 @@ em {
   margin-bottom: 20px;
   color: yellow;
   font-family: var(--inconsolata-fonts);
-  weight: 300;
+  font-weight: 300;
 }
