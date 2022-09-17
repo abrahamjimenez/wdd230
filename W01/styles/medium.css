@@ -1,0 +1,12 @@
+@media (min-width: 32.5em) {
+  .name {
+    color: #feff4b;
+  }
+  hr {
+    border: 1px solid black;
+  }
+  .header__container,
+  .footer__container {
+    background-color: #0042aa;
+  }
+}
