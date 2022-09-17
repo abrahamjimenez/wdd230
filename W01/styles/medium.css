@@ -1,4 +1,4 @@
-@media (max-width: 32.5em) {
+@media (min-width: 32.5em) {
   .name {
     color: #feff4b;
   }
@@ -11,6 +11,8 @@
   }
   .body__wrapper {
     width: 80%;
+    max-width: 580px;
+    min-width: 500px;
   }
   .header__container,
   .footer__container {
