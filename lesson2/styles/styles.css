@@ -61,3 +61,16 @@ img {
 p {
   margin: 0 0 10px 10px;
 }
+
+/* Footer */
+footer {
+  background-color: var(--header-footer-background-color);
+  color: white;
+  text-align: center;
+  margin: 10px auto 0 auto;
+  padding: 10px;
+}
+
+footer p {
+  margin: 0;
+}
