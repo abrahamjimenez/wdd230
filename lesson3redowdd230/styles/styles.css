@@ -115,3 +115,14 @@ span {
 .monse {
   font-family: "Montserrat", sans-serif;
 }
+
+/* Mobile */
+@media (max-width: 500px) {
+  .navbar__container {
+    flex-direction: column;
+  }
+
+  .navbar__container a {
+    padding: 10px;
+  }
+}
