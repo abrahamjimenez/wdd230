@@ -45,11 +45,15 @@ p {
   color: var(--accent1-color);
 }
 
+.navbar__container a:hover {
+  text-decoration: underline;
+  color: var(--accent2-color);
+}
+
 /* Main  */
 .main__container {
   display: flex;
   flex-direction: column;
-
   background-color: var(--secondary-color);
 }
 
@@ -58,6 +62,6 @@ p {
   border: 1px solid black;
 }
 
-.main--site--name h1 {
-  color: var(--accent1-color);
+.main--logo {
+  padding-top: 10px;
 }
