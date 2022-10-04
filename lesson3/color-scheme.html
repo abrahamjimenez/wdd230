@@ -3,31 +3,42 @@
   <head>
     <meta charset="UTF-8" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-    <title>Isabel's Open Hand</title>
+    <meta name="description" content="This website is the Tri-Cities Chamber of Commerce meant to unite people with promptions of outoor activities." >
+    <title>Tri-Cities Chamber of Commerce</title>
     <!-- Styles -->
+    <link rel="stylesheet" href="styles/normalize.css" >
     <link rel="stylesheet" href="styles/styles.css" >
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" >
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    >
   </head>
   <body>
     <header>
-      <nav class="navbar">
-        <ul class="list__container">
-          <li class="home"><a href="index.html">Home</a></li>
-          <li class="discover">
-            <a href="target-audience.html">Target Audience</a>
-          </li>
-          <li class="directory">
-            <a href="color-scheme.html">Color Scheme</a>
-          </li>
-          <li class="join"><a href="typography.html">Typography</a></li>
-        </ul>
+      <nav class="navbar__container">
+        <a href="index.html" class="navbar--link">Home</a>
+        <a href="target-audience.html" class="navbar--link">Target Audience</a>
+        <a href="color-scheme.html" class="navbar--link">Color Scheme</a>
+        <a href="typography.html" class="navbar--link">Typography</a>
       </nav>
     </header>
 
-    <h1>Colors</h1>
-    <p>Primary: #739E82</p>
-    <p>Secondary: #A790A5</p>
-    <p>Accent 1: #1B263B</p>
-    <p>Accent 2: #2D4654</p>
-    <p>Accent 3: #8B2635</p>
+    <main>
+      <div class="main__container">
+        <h1>Colors</h1>
+        <ul>
+          <li>Primary: <span>#739E82</span></li>
+          <li>Secondary: <span>#A790A5</span></li>
+          <li>Accent 1: <span>#1B263B</span></li>
+          <li>Accent 2: <span>#2D4654</span></li>
+          <li>Accent 3: <span>#8B2635</span></li>
+        </ul>
+      </div>
+    </main>
+
+    <footer></footer>
   </body>
 </html>
