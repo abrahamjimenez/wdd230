@@ -8,6 +8,8 @@
       content="This website is the Tri-Cities Chamber of Commerce meant to unite people with promptions of outoor activities."
     />
     <title>Pasco Washington Chamber of Commerce | Home</title>
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Styles -->
     <link rel="stylesheet" href="styles/styles.css">
   </head>
@@ -16,7 +18,7 @@
       <div class="header--container">
         <div class="header__top">
           <img
-            src="images/logo.png"
+            src="images/logo.jpg"
             alt="Tri-Cities Chamber of Commerce Logo "
             class="header__logo"
           />
@@ -24,17 +26,23 @@
             <span class="header__big">Pasco Washington</span>
             Chamber of Commerce
           </p>
-          <i class="header__icon"></i>
-          <i class="header__icon"></i>
+          <div class="header__icons__container">
+            <a href="#" class="header__links"><i class="fa-brands fa-facebook fa-2x"></i></a>
+            <a href="#" class="header__links"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+          </div>
           <span class="header__menu">&#9776</span>
         </div>
 
-        <div class="header__bottom"></div>
+        <div class="header__bottom">
+          <p class="header__date"><span class="weekday"></span>, <span class="day"></span> <span class="month"></span> <span class="year"></span></p>
+        </div>
       </div>
     </header>
 
     <main></main>
 
     <footer></footer>
+    <!-- Scripts -->
+    <script src="scripts/script.js"></script>
   </body>
 </html>
