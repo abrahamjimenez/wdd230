@@ -75,7 +75,11 @@ p {
 
 .header__menu {
   margin: auto 20px auto 5%;
+  padding: 2.5px;
   font-size: 30px;
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
 }
 
 .header__bottom {
@@ -87,4 +91,43 @@ p {
 
 .header__date {
   text-align: center;
+}
+
+/* Main */
+
+main {
+  background-color: var(--accent3-color);
+}
+
+.main--container {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 10px 15px 0;
+  gap: 10px;
+}
+
+.main__hero,
+.main__event,
+.main__weather,
+.main__news,
+.main__spotlights {
+  background-color: var(--primary-color);
+  border: 1px solid black;
+  height: 200px;
+}
+
+.main__spotlights {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  height: 500px;
+  padding: 20px;
+}
+
+.main__spotlight__one {
+  border: 1px solid black;
+  border-bottom: 0;
+}
+
+.main__spotlight__two {
+  border: 1px solid black;
 }
