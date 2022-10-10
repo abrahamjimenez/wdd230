@@ -11,6 +11,9 @@
   --accent1-color: #1b263b;
   --accent2-color: #000;
   --accent3-color: #8b2635;
+
+  --font--incosolata: "Inconsolata", monospace;
+  --font--montserrat: "Montserrat", sans-serif;
 }
 
 h1,
@@ -19,10 +22,12 @@ h3,
 h4,
 h5 {
   color: var(--accent1-color);
+  font-family: var(--font--incosolata);
 }
 
 p {
   color: var(--accent1-color);
+  font-family: var(--font--montserrat);
 }
 
 /* Header */
@@ -52,6 +57,7 @@ p {
 
 .header__big {
   font-weight: bold;
+  font-size: 1.5em;
 }
 
 .header__icons__container {
