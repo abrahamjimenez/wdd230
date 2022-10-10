@@ -1,4 +1,9 @@
 @media (min-width: 500px) {
+  /* Header */
+  .header__list__container {
+    display: none;
+  }
+
   .main__join {
     display: block;
     background-color: var(--primary-color);
@@ -60,7 +65,7 @@
   .footer__email,
   .footer__phone,
   .footer__location {
-    font-size: 0.5em;
+    font-size: 0.8em;
   }
 
   .footer__title,
