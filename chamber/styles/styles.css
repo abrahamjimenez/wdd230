@@ -43,6 +43,7 @@ p {
 
 .header__logo {
   width: 80px;
+  height: 80px;
   border-radius: 100%;
   background-color: black;
   margin: 0 20px 0 0;
@@ -106,10 +107,11 @@ main {
 }
 
 .main--container {
-  display: flex;
-  flex-direction: column;
-  padding: 15px 10px 15px 0;
-  gap: 10px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  height: 1000px;
+  padding: 10px 10px 10px 0;
 }
 
 .main__hero,
@@ -119,13 +121,11 @@ main {
 .main__spotlights {
   background-color: var(--primary-color);
   border: 1px solid black;
-  height: 200px;
 }
 
 .main__spotlights {
   display: grid;
   grid-template-rows: 1fr 1fr;
-  height: 500px;
   padding: 20px;
 }
 
