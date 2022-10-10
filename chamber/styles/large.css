@@ -1,0 +1,15 @@
+@media (min-width: 800px) {
+  .main__join {
+    display: block;
+    background-color: var(--primary-color);
+    height: auto;
+  }
+  .main__spotlights {
+  }
+  .main__spotlight__three {
+    display: block;
+    height: auto;
+    border: 1px solid black;
+    border-top: none;
+  }
+}
