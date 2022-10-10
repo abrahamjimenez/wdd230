@@ -131,3 +131,44 @@ main {
 .main__spotlight__two {
   border: 1px solid black;
 }
+
+/* Footer */
+.footer--container {
+  background-color: var(--secondary-color);
+  padding-bottom: 10px;
+}
+
+.footer__top {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__logo {
+  width: 8em;
+  margin: 10px auto;
+}
+
+.footer__title,
+.footer__address,
+.footer__email,
+.footer__phone,
+.footer__location,
+.footer__copyright,
+.footer__name,
+.footer__project,
+.footer__modification {
+  text-align: center;
+  padding: 2.5px;
+}
+
+.footer__title {
+  font-weight: bold;
+  font-size: 1.3em;
+  padding-bottom: 0;
+}
+
+.footer__copyright,
+.footer__project,
+.footer__modification {
+  font-size: 0.8em;
+}
