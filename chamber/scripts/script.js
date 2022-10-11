@@ -35,6 +35,3 @@ document.querySelector(".month").innerHTML = month;
 document.querySelector(".year").innerHTML = year;
 
 // Footer Modification
-const footer_last_modified = document.querySelector(".footer__modification");
-
-footer_last_modified.innerHTML = document.lastModified;

@@ -84,8 +84,9 @@ p {
   margin: auto 20px auto 5%;
   padding: 2.5px;
   font-size: 30px;
-  text-decoration: none;
   color: black;
+  background-color: var(--secondary-color);
+  box-shadow: none;
   border: 1px solid black;
 }
 
