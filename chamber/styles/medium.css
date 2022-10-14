@@ -4,6 +4,10 @@
     display: none;
   }
 
+  .header__logo {
+    margin: auto 20px;
+  }
+
   .main__join {
     display: block;
     background-color: var(--primary-color);

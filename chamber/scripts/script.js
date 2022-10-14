@@ -35,7 +35,9 @@ document.querySelector(".month").innerHTML = month;
 document.querySelector(".year").innerHTML = year;
 
 // Footer Modification
-console.log(``);
+const footer_mod = document.querySelector(".footer__modification");
+
+footer_mod.innerHTML = document.lastModified;
 
 // Header Hamburger Menu
 function hamburger() {
