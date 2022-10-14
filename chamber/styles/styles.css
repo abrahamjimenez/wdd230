@@ -90,7 +90,47 @@ p {
   border: 1px solid black;
 }
 
-.header__list__container {
+#header__lists__container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 5px;
+}
+
+#header__lists__container a {
+  padding: 0.5rem;
+}
+
+.header__lists {
+  text-align: left;
+  border: 1px solid var(--accent2-color);
+  text-decoration: none;
+  color: var(--accent1-color);
+  margin: 10px;
+}
+
+.header__lists:hover {
+  text-decoration: underline;
+  color: var(--accent3-color);
+  background-color: var(--primary-color);
+}
+
+.icon {
+  margin: 0 auto;
+}
+
+.fa-bars {
+  color: var(--accent3-color);
+  padding: 12px;
+  background-color: var(--primary-color);
+}
+
+.fa-bars:hover {
+  background-color: var(--accent3-color);
+  color: white;
+}
+
+.responsive .header__lists {
   display: none;
 }
 

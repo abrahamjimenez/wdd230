@@ -35,3 +35,14 @@ document.querySelector(".month").innerHTML = month;
 document.querySelector(".year").innerHTML = year;
 
 // Footer Modification
+console.log(``);
+
+// Header Hamburger Menu
+function hamburger() {
+  const list_container = document.getElementById("header__lists__container");
+  if (list_container.className === "open") {
+    list_container.className += " responsive";
+  } else {
+    list_container.className = "open";
+  }
+}

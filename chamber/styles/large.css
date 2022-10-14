@@ -4,25 +4,18 @@
     display: none;
   }
 
-  .header__list__container {
-    display: flex;
-    flex-direction: row;
+  .icon {
+    display: none;
   }
 
-  .header__lists {
-    list-style-type: none;
-    padding: 10px;
-    margin: auto;
+  .header__lists__container {
+    display: block;
   }
 
-  .header__lists a {
-    color: black;
-    text-decoration: none;
+  .responsive .header__lists {
+    display: block;
   }
 
-  .header__lists a:hover {
-    color: var(--accent3-color);
-  }
   /* Main */
   .main__join {
     display: block;
