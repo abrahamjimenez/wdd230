@@ -44,7 +44,9 @@ function hamburger() {
   const list_container = document.getElementById("header__lists__container");
   if (list_container.className === "open") {
     list_container.className += " responsive";
+    list_container.style.padding = 0;
   } else {
     list_container.className = "open";
+    list_container.style.padding = "15px";
   }
 }
