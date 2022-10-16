@@ -1,4 +1,4 @@
-@media (min-width: 800px) {
+@media (min-width: 1400px) {
   /* Header */
   .header__menu {
     display: none;
@@ -29,12 +29,8 @@
     border-top: none;
   }
 
-  main {
-  }
-
   .main--container {
     grid-template-columns: 1fr 2fr 1fr;
-    grid-auto-rows: 400px;
   }
 
   .main__event {
