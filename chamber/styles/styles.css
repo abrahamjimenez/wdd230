@@ -207,6 +207,10 @@ main {
   text-align: center;
 }
 
+.main__event__description a {
+  color: var(--secondary-color);
+}
+
 .main__weather {
   display: flex;
   flex-direction: column;
