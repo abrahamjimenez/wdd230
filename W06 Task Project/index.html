@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Piano Website</title>
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <div class="piano--container">
+      <button class="piano__key piano__key__1" onclick="playKeyOne()">
+        <audio id="key_one">
+          <source src="assets/do_start.m4a" />
+        </audio>
+        <p>Do</p>
+      </button>
+      <button class="piano__key piano__key__2" onclick="playKeyTwo()">
+        <audio id="key_two">
+          <source src="assets/re.m4a" />
+        </audio>
+        <p>Re</p>
+      </button>
+      <button class="piano__key piano__key__3" onclick="playKeyThree()">
+        <audio id="key_three">
+          <source src="assets/mi.m4a" />
+        </audio>
+        <p>Mi</p>
+      </button>
+      <button class="piano__key piano__key__4" onclick="playKeyFour()">
+        <audio id="key_four">
+          <source src="assets/fa.m4a" />
+        </audio>
+        <p>Fa</p>
+      </button>
+      <button class="piano__key piano__key__5" onclick="playKeyFive()">
+        <audio id="key_five">
+          <source src="assets/so.m4a" />
+        </audio>
+        <p>So</p>
+      </button>
+      <button class="piano__key piano__key__6" onclick="playKeySix()">
+        <audio id="key_six">
+          <source src="assets/la.m4a" />
+        </audio>
+        <p>La</p>
+      </button>
+      <button class="piano__key piano__key__7" onclick="playKeySeven()">
+        <audio id="key_seven">
+          <source src="assets/ti.m4a" />
+        </audio>
+        <p>Ti</p>
+      </button>
+      <button class="piano__key piano__key__8" onclick="playKeyEight()">
+        <audio id="key_eight">
+          <source src="assets/do_end.m4a" />
+        </audio>
+        <p>Do</p>
+      </button>
+    </div>
+  </body>
+  <!-- Scripts -->
+  <script src="scripts/scripts.js"></script>
+</html>
