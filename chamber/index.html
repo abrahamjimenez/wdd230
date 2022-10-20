@@ -34,7 +34,7 @@
       <div class="header--container">
         <div class="header__top">
           <img
-            src="images/logo.jpg"
+            src="images/logo_large.webp"
             alt="Tri-Cities Chamber of Commerce Logo "
             class="header__logo"
           />
@@ -74,7 +74,17 @@
       <div class="main--container">
         <div class="main__hero">
           <div class="main__hero__background">
-            <img src="images/hero_img.jpg" alt="" />
+            <picture>
+              <source
+                media="(min-width:500px) and (max-width:1399px)"
+                srcset="images/hero_img_medium.jpg"
+              />
+              <source
+                media="(min-width:1400px)"
+                srcset="images/hero_img_large.jpg"
+              />
+              <img src="images/hero_img_small.jpg" alt="" />
+            </picture>
             <button class="main__hero__button">Join The Chamber</button>
           </div>
         </div>
@@ -90,15 +100,15 @@
           <h1 class="main__weather__title">Weather</h1>
           <div class="main__weather__container">
             <i class="fa-solid fa-cloud fa-3x"></i>
-            <h2>79°F</h2>
+            <h2 class="main__weather__temperature">79°F</h2>
           </div>
           <h2>Partly Cloudy</h2>
           <hr />
           <div class="main__weather__lower">
             <p>Wind Speed:</p>
-            <p>15 mph</p>
+            <p class="main__weather__windspeed">15 mph</p>
             <p>Windchill:</p>
-            <p>N/a</p>
+            <p class="main__eather__lower__windchill">N/a</p>
           </div>
         </div>
         <div class="main__news">
@@ -149,7 +159,11 @@
     <footer>
       <div class="footer--container">
         <div class="footer__top">
-          <img src="images/logo.jpg" alt="Website Logo" class="footer__logo" />
+          <img
+            src="images/logo_large.webp"
+            alt="Website Logo"
+            class="footer__logo"
+          />
           <div class="footer__left__container">
             <h1 class="footer__title">Pasco Chamber of Commerce</h1>
             <p class="footer__address"><em>Pasco, Washington</em></p>
@@ -174,5 +188,6 @@
     </footer>
     <!-- Scripts -->
     <script src="scripts/script.js"></script>
+    <script src="scripts/windchill.js"></script>
   </body>
 </html>

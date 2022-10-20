@@ -99,6 +99,7 @@ p {
 
 #header__lists__container a {
   padding: 0.5rem;
+  text-align: center;
 }
 
 .header__lists {
