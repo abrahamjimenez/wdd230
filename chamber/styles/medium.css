@@ -4,6 +4,14 @@
     display: none;
   }
 
+  #header__lists__container {
+    flex-direction: row;
+  }
+
+  /* .fa-bars {
+    display: none;
+  } */
+
   .header__logo {
     margin: auto 20px;
   }

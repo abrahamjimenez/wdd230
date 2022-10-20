@@ -91,7 +91,7 @@ p {
 }
 
 #header__lists__container {
-  display: block;
+  display: flex;
   flex-direction: column;
   margin: auto;
   padding: 15px;
@@ -122,6 +122,7 @@ p {
 .fa-bars {
   color: var(--accent3-color);
   padding: 12px;
+  margin: 10px;
   background-color: var(--primary-color);
 }
 
@@ -137,7 +138,7 @@ p {
 .header__bottom {
   border: 1px solid black;
   padding: 10px;
-  margin: 10px 5px;
+  margin: auto auto 10px auto;
   background-color: rgba(220, 207, 220, 1);
 }
 
