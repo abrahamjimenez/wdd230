@@ -350,3 +350,8 @@ main {
 .footer__modification {
   font-size: 0.8em;
 }
+
+.footer__bottom p,
+.footer__bottom span {
+  font-size: 1em;
+}
