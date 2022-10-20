@@ -210,7 +210,7 @@ main {
 }
 
 .main__event__description a {
-  color: var(--secondary-color);
+  color: var(--accent2-color);
 }
 
 .main__weather {
