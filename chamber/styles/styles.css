@@ -30,6 +30,11 @@ p {
   font-family: var(--font--montserrat);
 }
 
+hr {
+  margin: 5px;
+  border: 1px solid var(--accent1-color);
+}
+
 /* Header */
 .header--container {
   background-color: var(--secondary-color);
