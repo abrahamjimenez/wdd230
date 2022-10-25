@@ -50,3 +50,18 @@ function hamburger() {
     list_container.style.padding = "15px";
   }
 }
+
+// Display Banner if Monday or Tuesday
+
+const today = new Date();
+console.log(today.getDay());
+
+function alertFunction() {
+  if (today.getDay() === 1 || today.getDay() === 2) {
+    alert(
+      "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m."
+    );
+  }
+}
+
+window.addEventListener("load", alertFunction);
