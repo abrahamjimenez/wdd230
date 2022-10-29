@@ -160,9 +160,9 @@ main {
 
 .main--container {
   display: grid;
-  /* grid-auto-rows: 200px; */
   grid-gap: 10px;
   padding: 10px 10px 10px 0;
+  justify-content: center;
 }
 
 .main__hero,
@@ -313,6 +313,17 @@ main {
 
 .main__join__description {
   text-align: center;
+}
+
+/* Main Discover Page */
+.main__image {
+  width: 70%;
+  margin: auto;
+}
+
+.main--container p {
+  text-align: center;
+  color: var(--secondary-color);
 }
 
 /* Footer */

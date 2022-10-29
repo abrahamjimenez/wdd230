@@ -58,6 +58,11 @@
     grid-column: 2/3;
   }
 
+  /* Main Discover Page */
+  .main--container p {
+    margin: auto;
+  }
+
   /* Footer */
   .footer__top {
     flex-direction: row;
