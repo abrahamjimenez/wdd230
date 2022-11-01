@@ -1,0 +1,36 @@
+table {
+  margin: auto;
+}
+
+table,
+tr,
+td {
+  border: 1px solid black;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(0, 255, 36, 0.777);
+}
+
+tr:nth-child(2) {
+  background-color: rgba(0, 136, 19, 0.604);
+}
+
+th {
+  background-color: rgba(0, 69, 10, 0.762);
+}
+
+tr,
+td,
+th {
+  padding: 1em 2em;
+  text-align: center;
+}
+
+table {
+  width: 50%;
+}
+
+.dark {
+  background-color: rgba(27, 97, 37, 0.777);
+}
