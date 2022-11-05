@@ -35,6 +35,11 @@ hr {
   border: 1px solid var(--accent1-color);
 }
 
+label,
+form p {
+  color: var(--secondary-color);
+}
+
 /* Header */
 .header--container {
   background-color: var(--secondary-color);
