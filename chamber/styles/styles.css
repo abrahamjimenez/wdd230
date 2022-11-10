@@ -331,6 +331,39 @@ main {
   color: var(--secondary-color);
 }
 
+.main--cards--container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  padding: 10px 0;
+}
+
+.main__cards {
+  width: 90%;
+  max-width: 350px;
+  height: 150px;
+  background-color: var(--secondary-color);
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 5px 10px var(--secondary-color);
+}
+
+.main__cards__logo {
+  background-color: gray;
+  width: 80%;
+  height: 25%;
+  margin: 10px auto;
+}
+
+.main__cards__address,
+.main__cards__phone,
+.main__cards__website {
+  text-align: center;
+  padding: 2.5px;
+}
+
 /* Footer */
 .footer--container {
   background-color: var(--secondary-color);
