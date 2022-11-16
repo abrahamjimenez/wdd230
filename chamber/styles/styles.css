@@ -331,6 +331,23 @@ main {
   color: var(--secondary-color);
 }
 
+.main--icons--container {
+  display: flex;
+}
+
+.fa-grip,
+.fa-list {
+  border: 1px solid black;
+}
+
+.fa-grip {
+  margin: auto 10px auto auto;
+}
+
+.fa-list {
+  margin: auto auto auto 10px;
+}
+
 .main--cards--container {
   display: grid;
   grid-template-columns: 1fr;

@@ -78,3 +78,11 @@ const loadImages = (image) => {
 imagesToLoad.forEach((img) => {
   loadImages(img);
 });
+
+function gridView() {
+  console.log("gridView");
+}
+
+function listView() {
+  console.log("listView");
+}
